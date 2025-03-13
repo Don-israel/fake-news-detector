@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 df = pd.read_csv("Fake.csv")
 df.head()
 df.dropna(inplace=True)  
-df = df[['title', 'text', 'label']]  # Select important columns
+df = df[['title', 'text', 'subject']]  # Select important columns
 df['label'] = df['label'].map({'FAKE': 0, 'REAL': 1})  # Convert labels to 0 and 1
 from nltk.corpus import stopwords  
 from nltk.tokenize import word_tokenize  
