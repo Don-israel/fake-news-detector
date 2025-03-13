@@ -1,0 +1,11 @@
+streamlit
+scikit-learn
+joblib
+pandas
+numpy
+matplotlib
+newspaper3k
+beautifulsoup4
+requests
+seaborn
+plotly
